@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Giải Phương Trình Bậc Hai </title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container" style="background-image: url();">
+        <h1 style="font-size:140%;border-style: double; border-radius: 5px; margin-right: 100px;
+    margin-left: 100px;"> Huyya Hurie </h1>
+
+        <h1 style="font-size:150%;border-style: none;"> Giải Phương Trình Bậc Hai : a<sup>2</sup> + bx + c = 0</h1>
+        <form id="quadraticForm" style = "border-top: 1px solid #eee; padding-top: 15px;">
+            <div class="input-group">
+                <label for="a"> Nhập giá trị a :</label>
+                <input type="number" step="any" id="a" required>
+            </div>
+            <div class="input-group">
+                <label for="b"> Nhập giá trị b :</label>
+                <input type="number" step="any" id="b" required>
+            </div>
+            <div class="input-group">
+                <label for="c"> Nhập giá trị c :</label>
+                <input type="number" step="any" id="c" required>
+            </div>
+            <button type="submit"> Giải Phương Trình </button>
+        </form>
+
+        <div id="result-area">
+            <h2 style="font-size:90%;"> </h2> 
+            <p id="delta-display"> </p>
+            <p id="solution-display"> </p>
+        </div>
+    </div>
+    <script src="script.js"> </script>
+</body>
+</html>
